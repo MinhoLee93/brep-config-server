@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/MinhoLee93/brep-config
+          searchPaths: personal
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
