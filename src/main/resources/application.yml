@@ -8,7 +8,7 @@ spring:
           enabled: false
         git:
           uri: https://github.com/MinhoLee93/brep-config
-          searchPaths: personal
+          searchPaths: personal-api, meta-api
 management:
   endpoints:
     web:
