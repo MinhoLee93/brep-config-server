@@ -8,7 +8,7 @@ spring:
           enabled: false
         git:
           uri: https://github.com/MinhoLee93/brep-config
-          searchPaths: resource-api, orchestration-api
+          searchPaths: member-api, asset-api, orchestration-api
 management:
   endpoints:
     web:
